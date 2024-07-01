@@ -13,13 +13,15 @@ import FloatingPlayer from '../components/FloatingPlayer'
 const Home = () => {
     return (
         <View style={styles.container}>
-            <Header />
+            <Header screenName='Home' />
             {/* <CardWithCaregory data={[1, 2, 4, 5, 6]} category={'Recommanded for you'} /> */}
             <FlatList
                 data={[1, 2, 3, 4, 5]}
                 renderItem={() => {
                     return <CardWithCaregory data={[1, 2, 4, 5, 6]} category={'Recommanded for you'} />
-                }} />
+                }}
+                ItemSeparatorComponent={() => <View style={{ marginBottom: 15 }} />}
+            />
 
             <FloatingPlayer />
         </View>
