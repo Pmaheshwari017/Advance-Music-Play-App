@@ -8,7 +8,10 @@ const PlayStation = () => {
     return (
         <View style={{
             flexDirection: 'row', justifyContent:
-                'space-around', width: 145, marginRight: 10, alignItems: 'center'
+                'space-around', width: 145, alignItems: 'center',
+            flexShrink: 1,
+            padding: 5
+            // zIndex: 10
         }}>
             <BackwardButton />
             <PlayButton />
