@@ -1,0 +1,98 @@
+export const songs =  [
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/Egzod_first.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0L0Vnem9kX2ZpcnN0Lm1wMyIsImlhdCI6MTcyMzMwNDIwOSwiZXhwIjoxNzU0ODQwMjA5fQ.e_94dNpvoC9bELZAPkGu72RWuJOhRsl9J7MKmbu3q3I&t=2024-08-10T15%3A36%3A49.306Z',
+      title: 'Royalty',
+      artist: 'Egzod, Neoni',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/374fc4ba-fe39-4bcf-9cf0-74c87c879ed0/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/2.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzIubXAzIiwiaWF0IjoxNzIyMDg4NjM3LCJleHAiOjE3MjI2OTM0Mzd9.A9myuF1fFCZ5mjlgPHDNAtznVlGXU47GXhjduxi9VYY&t=2024-07-27T13%3A57%3A17.151Z',
+      title: 'On & On',
+      artist: 'Daniel Levi',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/2bd3689a-7679-4e8b-9f5a-b8b1b73f567d/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/3.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzMubXAzIiwiaWF0IjoxNzIyMDg4NjYyLCJleHAiOjE3MjI2OTM0NjJ9.1GdH_ObV4qyP5yewEJOq2Xfiv7VeVVIRmM-OfI0jmBk&t=2024-07-27T13%3A57%3A42.480Z',
+      title: 'Mortals',
+      artist: 'Warriyo, Brehm',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/17534773-8bd9-419c-b46d-d500a4af33df/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/7.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzcubXAzIiwiaWF0IjoxNzIyMDg5NTE3LCJleHAiOjE3MjI2OTQzMTd9.NCQH_0hoYbD7NnnbnzeT2dp85uo752ZOme5BVrcwvBI&t=2024-07-27T14%3A11%3A57.847Z',
+      title: 'Bring Me Back',
+      artist: 'Nieulotni, Adikop',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/56b96453-54d0-419f-93ab-e845e04ededd/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/5.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzUubXAzIiwiaWF0IjoxNzIyMDg4NzU4LCJleHAiOjE3MjI2OTM1NTh9.tr3sMgg0MT-NE3z9aj4lvzevGTN_xZsseLlvNIYinRs&t=2024-07-27T13%3A59%3A18.143Z',
+      title: 'GRAVE',
+      artist: 'Idle Days, HOWL',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/03470158-1b01-4cea-8c11-92c75a58f4f5/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/6.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzYubXAzIiwiaWF0IjoxNzIyMDg5MzQ0LCJleHAiOjE3MjI2OTQxNDR9.PcSVUZ1r9i9DXUpazmi9CMVU2R3O8IVMzHct-rYaXSI&t=2024-07-27T14%3A09%3A04.371Z',
+      title: 'Rally Up!',
+      artist: 'XI$OW, Grioten',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/2d5d5364-16cd-475c-995f-0cf8c081032b/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/4.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzQubXAzIiwiaWF0IjoxNzIyMDg4Njg2LCJleHAiOjE3MjI2OTM0ODZ9.9PkFVMXSlIPiIxbv4usuepczk1xv0xHqhVedBhh1JFc&t=2024-07-27T13%3A58%3A06.957Z',
+      title: 'Puzzle',
+      artist: 'RetroVision',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/460c73a6-ef40-4c4c-973d-3140a3445088/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/8.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzgubXAzIiwiaWF0IjoxNzIyMDg5OTA3LCJleHAiOjE3MjI2OTQ3MDd9.hKrVQRbd-0gWnVzigmj-2baDCeT_MTN0eqMlsovsKhQ&t=2024-07-27T14%3A18%3A27.479Z',
+      title: 'Love You',
+      artist: 'LAADS',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/53cd9d69-98dc-4924-8b1c-3b569929c289/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/9.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzkubXAzIiwiaWF0IjoxNzIyMDkxMTEwLCJleHAiOjE3MjI2OTU5MTB9.n5ol-Sqt2YHA9onTIBNUNPgWTr5odFtAcjb4uOpIBV4&t=2024-07-27T14%3A38%3A30.894Z',
+      title: 'Symphony',
+      artist: 'Barmuda, Revaeon',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/8f8c380f-873e-42c8-91b1-1cdf18e9b1e8/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/10.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzEwLm1wMyIsImlhdCI6MTcyMjA5MTI2MiwiZXhwIjoxNzIyNjk2MDYyfQ.yb-ffJRynIuxw2S-xgSOWf7oXiBscbfCK7xyiN9Xo30&t=2024-07-27T14%3A41%3A02.429Z',
+      title: 'jealous',
+      artist: 'The Trinity',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/4bc7191b-d494-450e-ae1f-2f74c932bfae/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/11.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzExLm1wMyIsImlhdCI6MTcyMjA5MTM5MiwiZXhwIjoxNzIyNjk2MTkyfQ.nHikEyDmkW_XdCT2PmUpf6YCyW4icBDa7z3CTVGaJ7I&t=2024-07-27T14%3A43%3A12.686Z',
+      title: 'grow apart',
+      artist: 'Ghostnaps',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/ab79ea7c-f127-4832-9994-160c7a770087/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/12.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzEyLm1wMyIsImlhdCI6MTcyMjA5MTQ5OSwiZXhwIjoxNzIyNjk2Mjk5fQ.AtHxwgOTy8zBzrb1usagDZu-SXir2GL3pmV0ImUP8Xk&t=2024-07-27T14%3A44%3A59.417Z',
+      title: 'Without You',
+      artist: 'Justin J. Moore, NIVIRO',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/a66b1a1c-5084-405a-81a5-a7c8e4fd83e9/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/13.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzEzLm1wMyIsImlhdCI6MTcyMjA5MTY4MCwiZXhwIjoxNzIyNjk2NDgwfQ.n2Eq13k7nfbYqX5E6V-SLdT7nMK9OcQrXUXcPOFObrM&t=2024-07-27T14%3A48%3A01.042Z',
+      title: 'Nunca',
+      artist: 'Maria-Lea',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/cd1e753b-e2e3-4486-8e63-08fb7d43b271/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/14.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzE0Lm1wMyIsImlhdCI6MTcyMjA5MTc5NywiZXhwIjoxNzIyNjk2NTk3fQ.cqfv8614CwlTioUNuQg74HcR1a5CqYX445tGMzT1K0k&t=2024-07-27T14%3A49%3A57.571Z',
+      title: 'Vibe',
+      artist: 'Spicyverse',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/cd1e753b-e2e3-4486-8e63-08fb7d43b271/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/13.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzEzLm1wMyIsImlhdCI6MTcyMjA5MTY4MCwiZXhwIjoxNzIyNjk2NDgwfQ.n2Eq13k7nfbYqX5E6V-SLdT7nMK9OcQrXUXcPOFObrM&t=2024-07-27T14%3A48%3A01.042Z',
+      title: 'Pushing On',
+      artist: 'RIOT',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/f2848356-5ba9-4ff6-b660-615bc032e7b6/artwork-440x440.jpg', 
+    },
+    {
+      url: 'https://kfnbqfrrbskrijmowdaj.supabase.co/storage/v1/object/sign/MyMusicBucket/16.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJNeU11c2ljQnVja2V0LzE2Lm1wMyIsImlhdCI6MTcyMjA5MjExMywiZXhwIjoxNzIyNjk2OTEzfQ.qHRlntLp7Vo_pzcDOlOn81OCxuT6K7tqfmxmv8X7kZs&t=2024-07-27T14%3A55%3A13.477Z',
+      title: 'Underrated',
+      artist: 'Sunny Lukas',
+      artwork: 'https://linkstorage.linkfire.com/medialinks/images/c5d96c79-c050-499c-8ce2-937bd1dbb883/artwork-440x440.jpg', 
+    },
+  ]

@@ -4,11 +4,11 @@ import BackwardButton from './BackwardButton'
 import PlayButton from './PlayButton'
 import ForwardButton from '../components/ForwardButton'
 
-const PlayStation = () => {
+const PlayStation = ({ playScreen }: { playScreen?: boolean }) => {
     return (
         <View style={{
             flexDirection: 'row', justifyContent:
-                'space-around', width: 145, alignItems: 'center',
+                'space-around', width: playScreen ? 245 : 145, alignItems: 'center',
             flexShrink: 1,
             padding: 5
             // zIndex: 10

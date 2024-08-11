@@ -7,6 +7,8 @@ import { GetFontFamily } from '../constant/FontFamily'
 import SongCard from '../components/songCard'
 import CardWithCaregory from '../components/cardWithCaregory'
 import FloatingPlayer from '../components/FloatingPlayer'
+import { MusicData } from '../data/data'
+import { songs } from '../data/songs'
 
 const LikeScreen = () => {
     return (
@@ -14,7 +16,7 @@ const LikeScreen = () => {
             <Header screenName='Fav' />
             {/* <Text style={styles.headerText}>Liked Song</Text> */}
             <View style={{ flex: 1 }}>
-                <CardWithCaregory data={[1, 2, 3, 45, 5, 67, 4, 5, 6, 7, 3]} category='Liked Song' numRow={2} hori={false} customcContainerStyle={{ width: '49%' }}
+                <CardWithCaregory data={songs} category='Liked Song' numRow={2} hori={false} customcContainerStyle={{ width: '49%' }}
                     imageStyle={{ width: 180, height: 180, marginLeft: 3 }} />
             </View>
             <FloatingPlayer />
